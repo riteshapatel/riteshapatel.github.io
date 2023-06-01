@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.auto-grid {
+    --auto-grid-max-size: 100%;
+    --auto-grid-min-size: 30%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 0.2fr;
+    grid-gap: 1rem;
+  }
+  
+  
+/* Presentational styles */
+body {
+    background: #fff;
+    line-height: 1.4;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+li {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #fff;
+    color: #404040;
+    list-style-type: none;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subheader {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pheader {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+}
